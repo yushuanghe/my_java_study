@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pets>
+    <dogs>
+        <dog id="1">
+            <name>YAYA</name>
+            <health>100</health>
+            <love>0</love>
+            <master>
+                <id>1</id>
+                <name>大力</name>
+                <phone>12345678</phone>
+            </master>
+            <strain>酷酷的雪娜瑞</strain>
+        </dog>
+        <dog id="2">
+            <name>OUOU</name>
+            <health>90</health>
+            <love>15</love>
+            <master>
+                <id>2</id>
+                <name>二力</name>
+                <phone>123456789</phone>
+            </master>
+            <strain>聪明的拉布拉多犬</strain>
+        </dog>
+    </dogs>
+</pets>

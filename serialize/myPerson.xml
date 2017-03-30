@@ -1,0 +1,14 @@
+<list>
+  <j2se.core.serialize.demo01.Person>
+    <name>大力</name>
+    <age>40</age>
+  </j2se.core.serialize.demo01.Person>
+  <j2se.core.serialize.demo01.Person>
+    <name>逸峰</name>
+    <age>22</age>
+  </j2se.core.serialize.demo01.Person>
+  <j2se.core.serialize.demo01.Person>
+    <name>百元哥</name>
+    <age>100</age>
+  </j2se.core.serialize.demo01.Person>
+</list>

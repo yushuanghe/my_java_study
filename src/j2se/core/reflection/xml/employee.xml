@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Corp id="corp001" name="IBM">
+    <Depart id="dep01" name="研发部" desc="开发">
+        <Employee id="emp001" name="大力" pass="123"></Employee>
+        <Employee id="emp002" name="里斯" pass="123456"></Employee>
+        <Employee id="emp003" name="哈哈" pass="1234567"></Employee>
+    </Depart>
+</Corp>

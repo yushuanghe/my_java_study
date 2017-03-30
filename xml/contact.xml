@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<contacts>
+<contact id="1">
+<name>大力</name>
+<mobile>123456789</mobile>
+<group><id>1</id><name>好友</name></group>
+</contact>
+<contact id="2">
+<name>二力</name>
+<mobile>987654321</mobile>
+<group><id>2</id><name>同事</name></group>
+</contact>
+<contact id="3">
+<name>三力</name>
+<mobile>88479527</mobile>
+<group><id>2</id><name>同事</name></group>
+</contact>
+</contacts>
