@@ -16,6 +16,12 @@ public class DichotomySearch {
         System.out.println(search(arr, 67));
         System.out.println(search(arr, 89));
         System.out.println(search(arr, 99));
+
+        System.out.println(search2(arr, 12));
+        System.out.println(search2(arr, 45));
+        System.out.println(search2(arr, 67));
+        System.out.println(search2(arr, 89));
+        System.out.println(search2(arr, 99));
     }
 
     public static int search(int[] arr, int key) {
@@ -27,6 +33,22 @@ public class DichotomySearch {
                 end = middle - 1;
             } else if (key > arr[middle]) {
                 start = middle + 1;
+            } else {
+                return middle;
+            }
+        }
+        return -1;
+    }
+
+    public static int search2(int[] arr, int key) {
+        int start = 0;
+        int end = arr.length - 1;
+        while (end >= start) {
+            int middle = (end + start) / 2;
+            if (key > arr[middle]) {
+                start = middle + 1;
+            } else if (key < arr[middle]) {
+                end = middle - 1;
             } else {
                 return middle;
             }
