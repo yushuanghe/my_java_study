@@ -191,7 +191,7 @@ Dynamic libraries:
 
 VM Arguments:
 jvm_args: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:8415 -Dfile.encoding=UTF-8 
-java_command: j2se.core.io.file.DirectoryDemo
+java_command: com.shuanghe.j2se.core.io.file.DirectoryDemo
 Launcher Type: SUN_STANDARD
 
 Environment Variables:
